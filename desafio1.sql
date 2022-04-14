@@ -112,7 +112,7 @@ VALUES
   (3, 'Hallowed Steam', 2, 1995),
   (4, 'Incandescent', 3, 1998),
   (5, 'Temporary Culture', 4, 2001),
-  (6, 'Libary of liberty', 4, 2003),
+  (6, 'Library of liberty', 4, 2003),
   (7, 'Chained Down', 5, 2007),
   (8, 'Cabinet of fools', 5, 2012),
   (9, 'No guarantees', 5, 2015),
