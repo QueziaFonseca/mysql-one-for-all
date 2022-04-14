@@ -11,5 +11,4 @@ ORDER BY
   cancao
 LIMIT
   2;
-
-  -- LIMIT limita a quantidade de respostas ao numero escolhido
+-- LIMIT limita a quantidade de respostas ao numero escolhido
