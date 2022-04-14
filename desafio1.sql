@@ -7,14 +7,14 @@ CREATE DATABASE IF NOT EXISTS SpotifyClone;
     plan_type VARCHAR(50) NOT NULL,
     plan_value DECIMAL(4, 2) NOT NULL DEFAULT 0
   ) engine = InnoDB;
--- Popula tabela user
+-- Popula tabela plan
 INSERT INTO
   SpotifyClone.plan (plan_id, plan_type, plan_value)
 VALUES
   (1, 'gratuito', 0),
-  (4, 'familiar', 7.99),
-  (2, 'universitário', 5.99),
-  (3, 'pessoal', 6.99);
+  (2, 'familiar', 7.99),
+  (3, 'universitário', 5.99),
+  (4, 'pessoal', 6.99);
 
 -- Cria tabela user no banco de dados SpotifyClone
 CREATE TABLE SpotifyClone.user(
